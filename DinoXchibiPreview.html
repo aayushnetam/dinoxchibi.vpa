@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>𝐃𝐢𝐧𝐨𝐗𝐜𝐡𝐢𝐛𝐢.vpa - Video Editing Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('https://i.ibb.co/TD8BG0nn/abstract-blue-and-white-gradient-wave-overlap-layer-background-with-geometric-shape-element.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .fade-in {
+      animation: fadeInScale 1s ease-out;
+    }
+    @keyframes fadeInScale {
+      0% { opacity: 0; transform: scale(0.8); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 bg-opacity-90 text-black font-sans">
+  <!-- Logo Splash Screen -->
+  <div id="splash" class="fixed inset-0 bg-black flex items-center justify-center z-50">
+    <img src="https://i.ibb.co/mrffh88j/logo.png" alt="logo" class="animate-bounce w-32 h-32">
+  </div>
+
+  <div id="main-content" class="hidden fade-in">
+    <!-- Header -->
+    <header class="bg-black bg-opacity-80 text-black p-6">
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <img src="https://i.ibb.co/mrffh88j/logo.png" alt="DinoxChibi.vpa Logo" class="h-10 w-10 rounded-full">
+          <h1 class="text-2xl font-bold">𝐃𝐢𝐧𝐨𝐗𝐜𝐡𝐢𝐛𝐢.vpa</h1>
+        </div>
+        <nav class="space-x-4">
+          <a href="#services" class="hover:underline">Services</a>
+          <a href="#pricing" class="hover:underline">Pricing</a>
+          <a href="#upload" class="hover:underline">Upload</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-20 bg-gradient-to-r from-purple-600 to-indigo-600 text-black bg-opacity-90">
+      <h2 class="text-4xl font-bold mb-4">Professional Video Editing Services</h2>
+      <p class="text-xl mb-6">Upload your footage, select pricing, and let us edit your video!</p>
+      <a id="get-started-btn" href="#services" class="bg-white text-purple-600 px-6 py-3 rounded-full font-semibold">Get Started</a>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="max-w-6xl mx-auto py-16 px-4">
+      <h3 class="text-3xl font-bold mb-8 text-center">Services</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-center">
+        <div class="bg-white bg-opacity-80 shadow rounded-xl p-6 service-option">
+          <h4 class="font-bold text-xl mb-2">Social Media Reels</h4>
+          <p>Editing for Instagram, YouTube Shorts, TikTok.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 shadow rounded-xl p-6 service-option">
+          <h4 class="font-bold text-xl mb-2">Wedding Highlights</h4>
+          <p>Make your wedding cinematic and memorable.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 shadow rounded-xl p-6 service-option">
+          <h4 class="font-bold text-xl mb-2">Promotional Videos</h4>
+          <p>Promote your brand or product professionally.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="max-w-6xl mx-auto py-16 px-4 text-center">
+      <h3 class="text-3xl font-bold mb-8">Pricing</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white bg-opacity-80 p-6 rounded-xl">
+          <h4 class="font-bold text-xl mb-2">Basic Edit</h4>
+          <p class="text-lg font-semibold">₹499</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-6 rounded-xl">
+          <h4 class="font-bold text-xl mb-2">Social Media Reel</h4>
+          <p class="text-lg font-semibold">₹300</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-6 rounded-xl">
+          <h4 class="font-bold text-xl mb-2">Premium Edit</h4>
+          <p class="text-lg font-semibold">₹2,000</p>
+        </div>
+      </div>
+    </section>
+
+<form action="https://formsubmit.co/aayushnetam950@gmail.com" method="POST" enctype="multipart/form-data" class="bg-white bg-opacity-80 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+  <input type="hidden" name="_captcha" value="false">
+  
+  <div class="mb-4">
+    <label class="block text-black font-bold mb-2">Name</label>
+    <input name="name" type="text" required class="w-full px-3 py-2 rounded" />
+  </div>
+  <div class="mb-4">
+    <label class="block text-black font-bold mb-2">Phone Number</label>
+    <input name="phone" type="tel" required class="w-full px-3 py-2 rounded" />
+  </div>
+  <div class="mb-4">
+    <label class="block text-black font-bold mb-2">Email ID</label>
+    <input name="email" type="email" required class="w-full px-3 py-2 rounded" />
+  </div>
+  <div class="mb-4">
+    <label class="block text-black font-bold mb-2">Upload Video (Max 500MB)</label>
+    <input name="video" type="file" accept="video/*" class="w-full px-3 py-2" />
+  </div>
+
+  <div class="mb-6 text-sm text-black bg-yellow-100 p-4 rounded">
+    <p>📁 If your video is <strong>larger than 500MB</strong>, please <strong><a href="https://drive.google.com/drive/folders/YOUR_FOLDER_ID" target="_blank" class="underline text-blue-600">upload it to our Google Drive here</a></strong> and mention the filename below.</p>
+  </div>
+
+  <div class="mb-4">
+    <label class="block text-black font-bold mb-2">Google Drive Video Filename (if used)</label>
+    <input name="drive_filename" type="text" class="w-full px-3 py-2 rounded" />
+  </div>
+
+  <div class="text-center">
+    <button type="submit" class="bg-purple-600 text-white px-6 py-2 rounded-full font-bold">Submit</button>
+  </div>
+</form>
+
+<!-- Scripts -->
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      document.getElementById('splash').style.display = 'none';
+      document.getElementById('main-content').classList.remove('hidden');
+    }, 5000);
+  });
+
+  document.getElementById("get-started-btn")?.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.querySelectorAll(".service-option").forEach(card => {
+    card.addEventListener("click", () => {
+      document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+
+  document.querySelectorAll("#pricing .bg-white").forEach(card => {
+    card.addEventListener("click", () => {
+      document.getElementById("upload")?.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+
+  document.querySelector("form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    document.querySelector("#upload img")?.scrollIntoView({ behavior: "smooth" });
+  });
+</script> 
+</body>
+</html>
